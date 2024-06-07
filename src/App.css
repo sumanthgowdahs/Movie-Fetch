@@ -1,0 +1,72 @@
+*{
+  margin: 0;padding:0;
+  box-sizing: border-box;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+scroll-behavior: smooth;
+/* background-color: yellow; */
+}
+
+.topSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  flex-direction: column;
+  /* background-color: red; */
+  margin: 10px;
+}
+
+.main input{
+  width: 300px;
+  height: 40px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 9px;
+box-shadow: 0px 0px 10px black;
+
+}
+.content{
+  width: 100vw;
+  /* height: 100vh; */
+  /* gap: 20px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* background-color: green; */
+}
+.card{
+display: inline-block;
+align-items: center;
+width: 300px;
+/* height: 500px; */
+background-color: white;
+margin: 10px;
+padding: 30px;
+box-shadow: 0px 0px 10px black;
+}
+
+.image{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info{
+  padding-left: 60px;
+}
+
+
+
+.card .image img{
+width: 170px;
+height: 25  0px;
+box-shadow: 0px 0px 20px black;
+
+}
+p span{
+  color: red;
+  font-weight: bold;
+}
+
+
